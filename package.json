@@ -1,0 +1,28 @@
+{
+  "name": "community",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vueup/vue-quill": "^1.2.0",
+    "@vueuse/core": "^12.0.0",
+    "axios": "^1.7.8",
+    "community": "file:",
+    "mitt": "^3.0.1",
+    "pinia": "^2.2.8",
+    "vite-plugin-vuetify": "^2.0.4",
+    "vue-router": "^4.5.0",
+    "vuetify": "^3.7.4"
+  }
+}
